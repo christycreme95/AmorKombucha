@@ -46,6 +46,30 @@ body {
     margin: 0 !important;
 }
 
+.card1 {
+    background-color: #E7BD68;
+    border-radius: 20px;
+}
+
+.card2 {
+    background-color: #F6E5DB;
+    border-radius: 20px;
+}
+
+.card3 {
+    background-color: #D3D3B1;
+    border-radius: 20px;
+}
+
+.card4 {
+    background-color: #F1CAC5;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
 .card-body-1 {
     background-color: #707070;
     color: white;
@@ -87,6 +111,12 @@ body {
     border-radius: 40px;
 }
 
+.stretch {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
 .htoTitle {
     display: flex;
     justify-content: center;
@@ -121,7 +151,6 @@ body {
     background-color: #15100C;
     color: white;
     font-size: 25px;
-    
 }
 
 .justEnd {
