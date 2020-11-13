@@ -2,6 +2,15 @@ body {
     background-image: url(../images/darkBrn.jpg);
 }
 
+@font-face {
+    font-family: norwester;
+    src: url(../fonts/norwester.otf);
+}
+
+.norwester {
+    font-family: norwester;
+}
+
 .productsTitle {
     display: flex;
     justify-content: center;
@@ -75,4 +84,58 @@ body {
 
 .accordianBG {
     background-color: #F6E5DB;
+}
+
+.accordianTextBG {
+    background-color: #f5efec;
+}
+
+.btnText {
+    color: black;
+    font-weight: bold;
+}
+
+.btnText:hover {
+    color: black;
+}
+
+/*Navbar Code*/
+
+.navColor {
+    background-color: #15100C;
+    color: white;
+    font-size: 25px;
+}
+
+.justEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.down {
+    display: flex;
+    align-items: flex-end;
+}
+
+.dropColor {
+    background-color: #15100C;
+}
+
+.dropInside {
+    background-color: #15100C;
+    color: white;
+    font-size: 20px;
+}
+
+.dropInside:hover {
+    background-color: #FFD2CF;
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #FFD2CF;
 }
