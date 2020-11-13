@@ -18,6 +18,7 @@ body {
     font-size: 60px;
     opacity: 0.9;
     border-radius: 25px;
+    font-family: norwester;
 }
 
 .center {
@@ -51,6 +52,7 @@ body {
     font-size: 60px;
     display: flex;
     justify-content: center;
+    font-family: norwester;
 }
 
 .card-body-2 {
@@ -73,6 +75,10 @@ body {
     border: none;
 }
 
+.card-text {
+    font-family: norwester;
+}
+
 .cardBorder {
     border-radius: 20px;
 }
@@ -88,10 +94,12 @@ body {
     font-size: 60px;
     opacity: 0.9;
     border-radius: 25px;
+    font-family: norwester;
 }
 
 .accordianBG {
     background-color: #F6E5DB;
+    font-family: norwester;
 }
 
 .accordianTextBG {
@@ -113,6 +121,7 @@ body {
     background-color: #15100C;
     color: white;
     font-size: 25px;
+    font-family: norwester;
 }
 
 .justEnd {
