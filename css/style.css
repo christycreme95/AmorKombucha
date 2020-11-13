@@ -1,4 +1,78 @@
-body{
+body {
     background-image: url(../images/darkBrn.jpg);
 }
 
+.productsTitle {
+    display: flex;
+    justify-content: center;
+    background-color: #EBC7C3;
+    font-size: 94px;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.fourAmor {
+    border-radius: 80px;
+    height: 80%;
+    width: 100%;
+}
+
+.productsDescription {
+    background-color: #EBC7C3;
+    font-size: 30px;
+    opacity: 0.9;
+    border-radius: 10px;
+    display: flex;
+    justify-self: start;
+}
+
+.noPadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.card-body-1 {
+    background-color: #707070;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body-2 {
+    background-color: #E7BD68;
+}
+
+.card-body-3 {
+    background-color: #F6E5DB;
+}
+
+.card-body-4 {
+    background-color: #D3D3B1;
+}
+
+.card-body-5 {
+    background-color: #F1CAC5;
+}
+
+.card {
+    border: none;
+}
+
+.htoTitle {
+    display: flex;
+    justify-content: center;
+    background-color: #F6E5DB;
+    font-size: 94px;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.accordianBG {
+    background-color: #F6E5DB;
+}
