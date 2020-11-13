@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #EBC7C3;
-    font-size: 94px;
+    font-size: 60px;
     opacity: 0.9;
     border-radius: 25px;
 }
@@ -27,7 +27,7 @@ body {
 
 .fourAmor {
     border-radius: 80px;
-    height: 80%;
+    height: 90%;
     width: 100%;
 }
 
@@ -73,11 +73,19 @@ body {
     border: none;
 }
 
+.cardBorder {
+    border-radius: 20px;
+}
+
+.cardImageBorder {
+    border-radius: 40px;
+}
+
 .htoTitle {
     display: flex;
     justify-content: center;
     background-color: #F6E5DB;
-    font-size: 94px;
+    font-size: 60px;
     opacity: 0.9;
     border-radius: 25px;
 }
