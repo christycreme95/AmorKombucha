@@ -1,7 +1,13 @@
 body{
     background-image: url(../images/darkBrn.jpg);
 }
-
+@font-face{
+    font-family: norwester;
+    src: url(../fonts/norwester.otf);
+}
+.norwester{
+    font-family: norwester;
+}
 
 .navColor{
     background-color: #15100C;
