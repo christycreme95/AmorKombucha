@@ -1,5 +1,6 @@
 body{
     background-image: url(../images/darkBrn.jpg);
+    font-family: serif;
 }
 @font-face{
     font-family: norwester;
@@ -8,11 +9,12 @@ body{
 .norwester{
     font-family: norwester;
 }
-
+/* Nav Stuff */
 .navColor{
     background-color: #15100C;
     color: white;
     font-size: 25px;   
+    font-family: serif;
 }
 .center{
     display: flex;
@@ -46,4 +48,121 @@ body{
 }
 .nav-link:hover{
     color: #FFD2CF;
+}
+
+/* Home Page */
+
+.heroImg{
+    background-image: url(../images/resizeak4.png);
+    height: 457px;
+   background-position-y: top;
+   background-position-x:center;
+   background-size: contain;
+   background-repeat: repeat-x; 
+}
+.floatBot{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.meetUs{
+    margin-top: 280px;
+    background-color: #FFD2CF;
+    text-align: center;
+    opacity: 80%;
+}
+.homePgH1{
+    font-size: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.bottleHov{
+    height: 700px;
+    transition-duration: .7s;
+}
+.bottleHov:hover{
+    
+    height: 1000px;
+    transition-duration: .4s;
+}
+.homebox1{
+    background-color: #FFD2CF;
+    opacity: 80%;
+    border-radius: 30px;
+    
+}
+.HomepTag{
+    font-size: 25px;
+    padding-top: 2vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    
+}
+.homePic{
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+/* Part 2 */
+.history{
+    margin-top: 200px;
+    background-color:#D3D3B1;
+    text-align: center;
+    opacity: 80%;
+}
+.homebox2{
+    background-color: #D3D3B1;
+    opacity: 80%;
+    border-radius: 30px;
+}
+
+
+/* Part 3 */
+.WhatIsAmor{
+    margin-top: 200px;
+    background-color:#AAC5CB;
+    text-align: center;
+    opacity: 80%;
+}
+.homebox3{
+    opacity: 80%;
+    border-radius: 30px;
+    background-color:#AAC5CB;
+}
+
+
+
+
+
+
+
+/*Footer Code*/
+.footerColor {
+    background-color: #15100C;
+    color:white;
+    font-size: 15px;
+}
+.awesomeIcon {
+    color: white;
+}
+.awesomeIcon:hover{
+    color: white;
+}
+
+/*Modal Code*/
+.awesomeModal {
+    color: black;
+}
+.awesomeModal:hover {
+    color: black;
+}
+.modalFont {
+    font-size: 20px;
+}
+.btnColor {
+    background-color: #F1CAC5;
+    color: black;
 }
