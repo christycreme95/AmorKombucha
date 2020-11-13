@@ -63,7 +63,7 @@ body{
 }
 
 .bottleHov{
-    
+    margin-top: 12px;
     height: 640px;
     transition-duration: .6s;
     padding: 30px;
@@ -73,6 +73,9 @@ body{
     height: 820px;
     transition-duration: .4s;
 }
+
+
+
 
 /* Part 1 */
 .meetUs{
@@ -90,8 +93,7 @@ body{
     display: flex;
     align-content: center;
     justify-content: center;
-
-
+    color: black;
 }
 
 .homebox1{
@@ -108,11 +110,18 @@ body{
     color: black;
     
 }
+.pMini{
+    font-size: 20px;
+    color: black;
+}
 .homePic{
     border-radius: 30px;
     max-width: 100%;
     height: auto;
 }
+
+
+
 /* Part 2 */
 .farmToBottle{
     margin-top: 200px;
@@ -143,9 +152,6 @@ body{
     border-radius: 30px;
     background-color:#AAC5CB;
 }
-
-
-
 
 
 
