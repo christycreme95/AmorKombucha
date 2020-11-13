@@ -1,6 +1,6 @@
 body{
     background-image: url(../images/darkBrn.jpg);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @font-face{
     font-family: norwester;
@@ -14,7 +14,7 @@ body{
     background-color: #15100C;
     color: white;
     font-size: 25px;   
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .center{
     display: flex;
@@ -54,19 +54,36 @@ body{
 
 .heroImg{
     background-image: url(../images/akBanner.png);
-    height: 470px;
+    height: 600px;
+    
    background-position-y: top;
    background-position-x:center;
    background-size: contain;
    background-repeat: repeat-x; 
 }
 
+.bottleHov{
+    
+    height: 640px;
+    transition-duration: .6s;
+    padding: 30px;
+    padding-top: 110px;
+}
+.bottleHov:hover{
+    height: 820px;
+    transition-duration: .4s;
+}
 
+/* Part 1 */
 .meetUs{
-    margin-top: 280px;
+    margin-top: 200px;
     background-color: #FFD2CF;
     text-align: center;
+    color: black;
     opacity: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 .homePgH1{
     font-size: 60px;
@@ -74,23 +91,13 @@ body{
     align-content: center;
     justify-content: center;
 
+
 }
-.bottleHov{
-    
-    height: 550px;
-    transition-duration: .8s;
-    padding: 30px;
-    padding-top: 110px;
-}
-.bottleHov:hover{
-    
-    height: 750px;
-    transition-duration: .5s;
-}
+
 .homebox1{
     background-color: #FFD2CF;
     opacity: 80%;
-    border-radius: 30px;
+    border-radius: 25px;
     
 }
 .HomepTag{
@@ -98,6 +105,7 @@ body{
     padding-top: .9vw;
     padding-left: .5vw;
     padding-right: .5vw;
+    color: black;
     
 }
 .homePic{
@@ -106,11 +114,13 @@ body{
     height: auto;
 }
 /* Part 2 */
-.history{
+.farmToBottle{
     margin-top: 200px;
     background-color:#D3D3B1;
     text-align: center;
+    color: black;
     opacity: 80%;
+    border-radius: 20px;
 }
 .homebox2{
     background-color: #D3D3B1;
@@ -125,6 +135,8 @@ body{
     background-color:#AAC5CB;
     text-align: center;
     opacity: 80%;
+    color: black;
+    border-radius: 20px;
 }
 .homebox3{
     opacity: 80%;
