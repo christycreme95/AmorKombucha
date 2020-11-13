@@ -1,6 +1,6 @@
 body{
     background-image: url(../images/darkBrn.jpg);
-    font-family: serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @font-face{
     font-family: norwester;
@@ -14,7 +14,7 @@ body{
     background-color: #15100C;
     color: white;
     font-size: 25px;   
-    font-family: serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .center{
     display: flex;
@@ -53,18 +53,14 @@ body{
 /* Home Page */
 
 .heroImg{
-    background-image: url(../images/resizeak4.png);
-    height: 457px;
+    background-image: url(../images/akBanner.png);
+    height: 470px;
    background-position-y: top;
    background-position-x:center;
    background-size: contain;
    background-repeat: repeat-x; 
 }
-.floatBot{
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 .meetUs{
     margin-top: 280px;
@@ -80,13 +76,16 @@ body{
 
 }
 .bottleHov{
-    height: 700px;
-    transition-duration: .7s;
+    
+    height: 550px;
+    transition-duration: .8s;
+    padding: 30px;
+    padding-top: 110px;
 }
 .bottleHov:hover{
     
-    height: 1000px;
-    transition-duration: .4s;
+    height: 750px;
+    transition-duration: .5s;
 }
 .homebox1{
     background-color: #FFD2CF;
@@ -96,7 +95,7 @@ body{
 }
 .HomepTag{
     font-size: 25px;
-    padding-top: 2vw;
+    padding-top: .9vw;
     padding-left: .5vw;
     padding-right: .5vw;
     
