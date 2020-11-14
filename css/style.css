@@ -73,16 +73,19 @@ body{
 .bottleHov{
     margin-top: 12px;
     height: 640px;
-    transition-duration: .6s;
+    transition-duration: .4s;
     padding: 30px;
     padding-top: 110px;
 }
 .bottleHov:hover{
     height: 820px;
-    transition-duration: .4s;
+    transition-duration: .2s;
 }
 .marTop{
     margin-top: 200px;
+}
+.picPad{
+    padding: 0px;
 }
 
 /* Part 1 */
@@ -108,6 +111,7 @@ body{
     background-color: #FFD2CF;
     opacity: 80%;
     border-radius: 25px;
+
     
 }
 .HomepTag{
@@ -189,7 +193,12 @@ body{
     .marTop{
         margin-top: 50px;
     }
-    
+    .modalFont {
+        font-size: 15px;
+    }
+    .picPad{
+        padding: 0!;
+    }
 }
 /* Medium Media Query */
     @media only screen and (min-width: 600px) {
@@ -207,8 +216,6 @@ body{
     }
     .HomepTag{
         font-size: 25px;
-        
-        
     }
     .homePgH1{
         font-size: 60px;
@@ -216,10 +223,18 @@ body{
     .marTop{
         margin-top: 200px;
     }
+    
+
+
+
     }
     @media only screen and (min-width: 1200px){
         .HomepTag{
             font-size: 1.5vw;
+        }
+        .picPad{
+            padding-left: 5px;
+            padding-right: 5px;
         }
     }
    
@@ -238,7 +253,7 @@ body{
 
 
 
-    
+
 /*Footer Code*/
 .footerColor {
     background-color: #15100C;
