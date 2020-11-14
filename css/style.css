@@ -494,3 +494,244 @@ body {
         width: 125%;
     }
 }
+
+/*Christy's Css*/
+
+/* Nav Stuff */
+
+.AmorLogo {
+    width: 120px;
+}
+
+.navColor {
+    background-color: #15100C;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.justEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.down {
+    display: flex;
+    align-items: flex-end;
+}
+
+.dropColor {
+    background-color: #15100C;
+}
+
+.dropInside {
+    background-color: #15100C;
+    color: white;
+    font-size: 20px;
+}
+
+.dropInside:hover {
+    background-color: #FFD2CF;
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #FFD2CF;
+}
+
+/* Home Page */
+
+.heroImg {
+    background-image: url(../images/akBanner.png);
+    height: 600px;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.bottleHov {
+    margin-top: 12px;
+    height: 640px;
+    transition-duration: .4s;
+    padding: 30px;
+    padding-top: 110px;
+}
+
+.bottleHov:hover {
+    height: 820px;
+    transition-duration: .2s;
+}
+
+.marTop {
+    margin-top: 200px;
+}
+
+.picPad {
+    padding: 0px;
+}
+
+/* Part 1 */
+
+.meetUs {
+    background-color: #FFD2CF;
+    text-align: center;
+    color: black;
+    opacity: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.homePgH1 {
+    font-size: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: black;
+}
+
+.homebox1 {
+    background-color: #FFD2CF;
+    opacity: 80%;
+    border-radius: 25px;
+}
+
+.HomepTag {
+    font-size: 25px;
+    padding-top: .9vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.pMini {
+    font-size: 20px;
+    color: black;
+    padding-top: 0 !important;
+    margin-bottom: 2px;
+}
+
+.homePic {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+/* Part 2 */
+
+.farmToBottle {
+    background-color: #D3D3B1;
+    text-align: center;
+    color: black;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.homebox2 {
+    background-color: #D3D3B1;
+    opacity: 80%;
+    border-radius: 30px;
+}
+
+/* Part 3 */
+
+.WhatIsAmor {
+    background-color: #AAC5CB;
+    text-align: center;
+    opacity: 80%;
+    color: black;
+    border-radius: 20px;
+}
+
+.homebox3 {
+    opacity: 80%;
+    border-radius: 30px;
+    background-color: #AAC5CB;
+}
+
+/* Smol Media Query */
+
+@media only screen and (min-width: 320px) {
+    .AmorLogo {
+        width: 120px;
+        margin-left: 20px;
+    }
+    .bottleHov {
+        height: 400px;
+    }
+    .bottleHov:hover {
+        height: 600px;
+    }
+    .meetUs {
+        margin-top: 0px;
+    }
+    .HomepTag {
+        font-size: 18px;
+    }
+    .homePgH1 {
+        font-size: 40px;
+    }
+    .marTop {
+        margin-top: 50px;
+    }
+    .modalFont {
+        font-size: 15px;
+    }
+    .picPad {
+        padding: 0!;
+    }
+}
+
+/* Medium Media Query */
+
+@media only screen and (min-width: 600px) {
+    .AmorLogo {
+        width: 150px;
+    }
+    .bottleHov {
+        height: 640px;
+    }
+    .bottleHov:hover {
+        height: 800px;
+    }
+    .meetUs {
+        margin-top: 200px;
+    }
+    .HomepTag {
+        font-size: 25px;
+    }
+    .homePgH1 {
+        font-size: 60px;
+    }
+    .marTop {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .HomepTag {
+        font-size: 1.5vw;
+    }
+    .picPad {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .HomepTag {
+        font-size: 35px;
+    }
+}
