@@ -4,141 +4,261 @@
     Project #4 - Business Redevelopment
     In this Project, we are creating a website for a local business, amor Kombucha.
     
+    Adobe XD
+    https://xd.adobe.com/view/c98936ce-7e14-4e25-a0d0-b13dce02fba8-9cda/
  -->
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Amor Kombucha</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/71f42071b5.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Amor Kombucha</title>
+</head>
 
-  <body>
-
-    <!--Navbar Code-->
-    <nav class="navbar navbar-expand-lg navColor">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="col-4">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Explore
-              </a>
-              <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item dropInside" href="./index.html">Home</a>
-                <a class="dropdown-item dropInside" href="./pages/products.html">Order</a>
-              </div>
-            </li>
-    
-          </ul>
-    
-        </div>
-      </div>
-      <div class="col-4 center mx-1">
-        <a class="navbar-brand" href="../index.html">
-          <img src="../images/amorTrans.png" width="180px" alt="The logo for Amor Kombucha">
-        </a>
-      </div>
-      <div class="col-4 d-none d-lg-block">
-        <ul class="navbar-nav justEnd">
-          <li class="nav-item active">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+<body>
+  <!-- Nav Here -->
+  <nav class="navbar navbar-expand-lg sticky-top navColor">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="col-4">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Explore
+            </a>
+            <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item dropInside" href="#MeetAmor">Meet Us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item dropInside" href="#History">History</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item dropInside" href="#WhatIsAmor">Nutrition</a>
+            </div>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link" href="./pages/products.html">Products</a>
           </li>
         </ul>
+
       </div>
-    
-      <div class="nav-item dropdown d-lg-none">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Explore
-        </a>
-        <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item dropInside" href="../index.html">Home</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item dropInside" href="#MeetAmor">Order</a>
-    
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item dropInside" href="#" data-toggle="modal" data-target="#contactModal">Contact
-            Us</a>
+    </div>
+    <div class="col-4 center mx-1">
+      <a class="navbar-brand" href="#">
+        <img src="./images/amorTrans.png" class="AmorLogo" alt="The logo for Amor Kombucha">
+      </a>
+    </div>
+    <div class="col-4 d-none d-lg-block">
+      <ul class="navbar-nav justEnd">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-item dropdown d-lg-none">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Explore
+      </a>
+      <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item dropInside" href="./pages/products.html">Products</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item dropInside" href="#MeetAmor">Meet Us</a>
+        <a class="dropdown-item dropInside" href="#History">History</a>
+        <a class="dropdown-item dropInside" href="#WhatIsAmor">Nutrition</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item dropInside" href="#" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Modal Stuff -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModal">Find us here!</h5>
+
+        </div>
+        <div class="modal-body">
+          <p><a class="modalFont mt-2" href="https://www.instagram.com/amorkombucha/"><i
+                class="fab fa-instagram fa-2x awesomeModal mr-4 "></i>@AmorKombucha</a></p>
+          <p><a class="modalFont mt-5" href="https://www.facebook.com/amorkombucha/"><i
+                class="fab fa-facebook-square fa-2x awesomeModal mr-4"></i>Amor Kombucha</a></p>
+          <p class="modalFont"><i class="fas fa-envelope fa-2x awesomeModal mr-4"></i>info@amorkombucha.com</p>
+          <p class="modalFont"><i class="fas fa-phone fa-2x awesomeModal mr-4"></i>209-227-4985</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btnColor" data-dismiss="modal">Close</button>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
 
 
 
-    <!--Modal Code-->
-    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="contactModal">Find us here!</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            </button>
-          </div>
-          <div class="modal-body">
-            <p><a class="modalFont mt-2" href="https://www.instagram.com/amorkombucha/"><i
-                  class="fab fa-instagram fa-2x awesomeModal mr-4 "></i>www.instagram.com/amorkombucha/</a>
-            </p>
-            <p><a class="modalFont mt-5" href="https://www.facebook.com/amorkombucha/"><i
-                  class="fab fa-facebook-square fa-2x awesomeModal mr-4"></i>www.facebook.com/amorkombucha/</a>
-            </p>
-            <p class="modalFont"><i class="fas fa-envelope fa-2x awesomeModal mr-4"></i>info@amorkombucha.com
-            </p>
-            <p class="modalFont"><i class="fas fa-phone fa-2x awesomeModal mr-4"></i>209-227-4985</p>
-    
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary btnColor" data-dismiss="modal">Close</button>
-    
-          </div>
-        </div>
+  <!-- Actual Site -->
+  <div class="heroImg">
+    <div class="center">
+      <a href="./pages/products.html">
+        <img class="bottleHov d-none d-md-block" src="./images/BtlPinata.png" alt="A bottle of Amor Kombucha's Pinata">
+      </a>
+      <a href="./pages/products.html">
+        <img class="bottleHov d-none d-lg-block" src="./images/BtlSalud.png" alt="A bottle of Amor Kombucha's Salud">
+      </a>
+      <a href="./pages/products.html">
+        <img class="bottleHov d-none d-lg-block" src="./images/BtlEterno.png" alt="A bottle of Amor Kombucha's Eterno">
+      </a>
+      <a href="./pages/products.html">
+        <img class="bottleHov" src="./images/BtlComo.png" alt="A bottle of Amor Kombucha's Como La Flor">
+      </a>
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="MeetAmor" class="row center">
+      <!-- Row 1 -->
+      <div class="col-1 d-none d-lg-block"></div>
+
+      <div class="col-10 mb-5 meetUs">
+        <h1 class="center homePgH1 py-1">Meet Amor Kombucha</h1>
       </div>
+
+      <div class="col-1 d-none d-lg-block"></div>
+      <div class="order-1 col-1 d-none d-xl-block"></div>
+
+      <div class="order-3 order-xl-2 col-10 col-xl-5 mb-2 homebox1">
+        <p class="HomepTag">Meet our Stockton, CA Native Founders, <a class="text-dark"
+            href="https://www.instagram.com/lonelybrownies/">Alejandro Espino</a> and
+          <a class="text-dark" href="https://www.instagram.com/mex_cellence/">Martín Sanchez</a>
+          aka the “Kombuchadores or Kombucheros” We can’t wait to share this premium quality, locally brewed elixir with
+          our Mexican American essence!</p>
+        <p class="HomepTag">Our Kombucha is organic and handmade with love, it is not pasteurized, nor does it contain
+          preservatives. We use local flavors inspired by Mexico. It is made in small batches using traditional
+          techniques. We are here to build culture, awareness around fermented food and support our
+          great community.</p>
+      </div>
+
+      <div class="order-2 order-xl-3 col-10 col-xl-5 mb-2 picPad">
+        <img src="./images/AmorFounders.jpg" class="homePic"
+          alt="This picture is of Alejandro Espino and Martin Sanchez, founders of Amor Kombucha.">
+      </div>
+      <div class="order-4 col-1 d-none d-xl-block"></div>
+    </div>
+
+
+    <!-- Row 2 -->
+    <div id="History" class="row center">
+
+      <div class="col-1 d-none d-xl-block"></div>
+      <div class="col-10 mb-5 farmToBottle marTop">
+        <h1 class="center homePgH1 py-1">From Farm To Bottle</h1>
+      </div>
+      <div class="col-1 d-none d-xl-block"></div>
+
+      <div class="col-1 d-none d-xl-block"></div>
+
+      <div class="col-10 col-xl-5 mb-2 picPad">
+        <img src="./images/woodyall.jpg" class="homePic img-fluid"
+          alt="A picture of 4 bottles of Amor Kombucha on wood in front of green plants">
+      </div>
+      <div class="col-10 col-xl-5 mb-2 homebox2">
+        <p class="HomepTag">We
+          work to obtain our ingredients from organic local farms that employ ethical business practices. We obtain the
+          highest quality organic ingredients from San Joaquin County. Greatness grows here and with Amor we want to
+          showcase what the heart of the central valley offers. We love taking advantage of our rich agriculture and
+          diverse ingredients to make the highest quality brew. Local organic agriculture is the best way to support our
+          environment and local communities.
+        <p class="center pMini">*Black tea is the only ingredient that we can not obtain locally.</p>
+
+
+        </p>
+      </div>
+      <div class="col-1 d-none d-xl-block"></div>
+    </div>
+
+    <div id="WhatIsAmor" class="row center">
+      <!--Row 3 -->
+      <div class="col-1 d-none d-xl-block"></div>
+      <div class="col-10 mb-5 WhatIsAmor marTop">
+        <h1 class="center homePgH1 py-1">What Is Amor Kombucha?</h1>
+      </div>
+      <div class="col-1 d-none d-xl-block"></div>
+
+      <div class="order-1 col-1 d-none d-xl-block"></div>
+      <div class="order-3 order-xl-2 col-10 col-xl-5 mb-2 homebox3">
+        <p class="HomepTag">Kombucha is a fermented tea that naturally contains probiotics, organic acids, enzymes and
+          healthy nutrients. Our kombucha is handmade with AMÓR 100% authentic. Kombucha is traditionally made with tea,
+          water, organic cane sugar(for the culture, not for us to consume), and the SCOBY (symbiotic culture of
+          bacteria
+          and yeast). We stick to the script but add a Latin inspired touch since we are a Mexican-American owned
+          company. We brew in small batches to ensure quality and integrity in our kombucha.</p>
+      </div>
+      <div class="order-2 order-xl-3 col-10 col-xl-5 mb-2 picPad">
+        <img src="./images/doitwamor.jpg" class="homePic img-fluid"
+          alt="This picture is of Alejandro Espino and Martin Sanchez, founders of Amor Kombucha.">
+      </div>
+      <div class="order-4 col-1 d-none d-xl-block"></div>
     </div>
 
 
 
-    
-    <div class="container-fluid footerColor mt-5">
-      <div class="row">
-        <div class="col-1">
-          <p class="mt-3">Amor Kombucha</p>
-          <p>209-227-4985</p>
-          <p class="mb-4">info@AmorKombucha.com</p>
-        </div>
-        <div class="col-9"></div>
-        <div class="col-2 d-flex justify-content-end">
-          <div class="row mt-3">
-            <div class="col-12 d-flex justify-content-end">
-              <a class="fab fa-instagram fa-3x down mr-4 awesomeIcon" href="https://www.instagram.com/amorkombucha/"></a>
-              <a class="fab fa-facebook-square fa-3x down mr-1 awesomeIcon"
-                href="https://www.facebook.com/amorkombucha/"></a>
-            </div>
-            <div class="col-12 d-flex justify-content-end">
-              <p class="mb-3">Hecho en Stockton, CA</p>
-            </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <!-- Footer -->
+  <div class="container-fluid footerColor mt-5">
+    <div class="row">
+      <div class="col-2">
+        <p class="mt-3">Amor Kombucha</p>
+        <p>209-227-4985</p>
+        <p class="mb-4">info@AmorKombucha.com</p>
+      </div>
+      <div class="col-8"></div>
+      <div class="col-2 d-flex justify-content-end">
+        <div class="row mt-3">
+          <div class="col-12 d-flex justify-content-end">
+            <a class="fab fa-instagram fa-3x down mr-4 awesomeIcon" href="https://www.instagram.com/amorkombucha/"></a>
+            <a class="fab fa-facebook-square fa-3x down mr-1 awesomeIcon"
+              href="https://www.facebook.com/amorkombucha/"></a>
+          </div>
+          <div class="col-12 d-flex justify-content-end">
+            <p class="mb-3">Hecho en Stockton, CA</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
