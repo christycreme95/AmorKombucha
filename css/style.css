@@ -349,6 +349,12 @@ body {
         height: 125%;
         width: 125%;
     }
+    .footerColor {
+        background-color: #15100C;
+        color: white;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -363,12 +369,24 @@ body {
         background-color: #f5efec;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    .footerColor {
+        background-color: #15100C;
+        color: white;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .bottle {
         height: 250%;
         width: 250%;
+    }
+    .footerColor {
+        background-color: #15100C;
+        color: white;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
 
