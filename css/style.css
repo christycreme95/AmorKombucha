@@ -236,3 +236,243 @@ body {
 .accordianBorder {
     border-radius: 20px;
 }
+
+.bottle {
+    height: 175%;
+    width: 175%;
+}
+
+.AmorLogo {
+    width: 120px;
+}
+
+@media only screen and (min-width: 320px) {
+    .modalFont {
+        font-size: 15px;
+    }
+    .AmorLogo {
+        width: 120px;
+        margin-left: 20px;
+    }
+    .productsTitle {
+        display: flex;
+        justify-content: center;
+        background-color: #EBC7C3;
+        font-size: 40px;
+        opacity: 0.9;
+        border-radius: 25px;
+        font-family: norwester;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .productsDescription {
+        font-size: 16px;
+        background-color: #EBC7C3;
+        opacity: 0.9;
+        border-radius: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2%;
+    }
+    .htoTitle {
+        display: flex;
+        justify-content: center;
+        background-color: #F6E5DB;
+        font-size: 40px;
+        opacity: 0.9;
+        border-radius: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordianTextBG {
+        font-size: 14px;
+        background-color: #f5efec;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bottle {
+        height: 250%;
+        width: 250%;
+    }
+}
+
+@media only screen and (min-width: 340px) {
+    .bottle {
+        height: 200%;
+        width: 200%;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .bottle {
+        height: 175%;
+        width: 175%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .btnText {
+        font-size: 19px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordianTextBG {
+        font-size: 19px;
+        background-color: #f5efec;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 465px) {
+    .bottle {
+        height: 150%;
+        width: 150%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .AmorLogo {
+        width: 150px;
+    }
+    .modalFont {
+        font-size: 20px;
+    }
+    .btnText {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordianTextBG {
+        font-size: 20px;
+        background-color: #f5efec;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bottle {
+        height: 125%;
+        width: 125%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .btnText {
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordianTextBG {
+        font-size: 15px;
+        background-color: #f5efec;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .bottle {
+        height: 250%;
+        width: 250%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .bottle {
+        height: 150%;
+        width: 150%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .productsTitle {
+        display: flex;
+        justify-content: center;
+        background-color: #EBC7C3;
+        font-size: 60px;
+        opacity: 0.9;
+        border-radius: 25px;
+        font-family: norwester;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .productsDescription {
+        font-size: 20px;
+        background-color: #EBC7C3;
+        opacity: 0.9;
+        border-radius: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2%;
+    }
+    .htoTitle {
+        display: flex;
+        justify-content: center;
+        background-color: #F6E5DB;
+        font-size: 60px;
+        opacity: 0.9;
+        border-radius: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1960px) {
+    .fourAmor {
+        border-radius: 40px;
+        height: 97%;
+        width: 101%;
+    }
+    .productsTitle {
+        display: flex;
+        justify-content: center;
+        background-color: #EBC7C3;
+        font-size: 60px;
+        opacity: 0.9;
+        border-radius: 25px;
+        font-family: norwester;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .productsDescription {
+        font-size: 30px;
+        background-color: #EBC7C3;
+        opacity: 0.9;
+        border-radius: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2%;
+    }
+    .htoTitle {
+        display: flex;
+        justify-content: center;
+        background-color: #F6E5DB;
+        font-size: 60px;
+        opacity: 0.9;
+        border-radius: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .card-title {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+    }
+    .card-text {
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .cardbodyText {
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordianTextBG {
+        font-size: 25px;
+        background-color: #f5efec;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .btnText {
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .footerColor {
+        background-color: #15100C;
+        color: white;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bottle {
+        height: 125%;
+        width: 125%;
+    }
+}

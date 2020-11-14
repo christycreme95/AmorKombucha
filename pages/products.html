@@ -26,7 +26,7 @@
 <body>
 
     <!--Navbar Code-->
-    <nav class="navbar navbar-expand-lg navColor">
+    <nav class="navbar navbar-expand-lg sticky-top navColor">
         <div class="collapse navbar-collapse" id="navbarNav">
             <div class="col-4">
                 <ul class="navbar-nav">
@@ -37,7 +37,9 @@
                         </a>
                         <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item dropInside" href="../index.html">Home</a>
-                            <a class="dropdown-item dropInside" href="./products.html">Order</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item dropInside" href="#Order">Order</a>
+
                         </div>
                     </li>
 
@@ -47,7 +49,7 @@
         </div>
         <div class="col-4 center mx-1">
             <a class="navbar-brand" href="../index.html">
-                <img src="../images/amorTrans.png" width="180px" alt="The logo for Amor Kombucha">
+                <img src="../images/amorTrans.png" class="AmorLogo" alt="The logo for Amor Kombucha">
             </a>
         </div>
         <div class="col-4 d-none d-lg-block">
@@ -66,7 +68,7 @@
             <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item dropInside" href="../index.html">Home</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item dropInside" href="#MeetAmor">Order</a>
+                <a class="dropdown-item dropInside" href="#Order">Order</a>
 
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item dropInside" href="#" data-toggle="modal" data-target="#contactModal">Contact
@@ -86,10 +88,10 @@
                 </div>
                 <div class="modal-body">
                     <p><a class="modalFont mt-2" href="https://www.instagram.com/amorkombucha/"><i
-                                class="fab fa-instagram fa-2x awesomeModal mr-4 "></i>www.instagram.com/amorkombucha/</a>
+                                class="fab fa-instagram fa-2x awesomeModal mr-4 "></i>@amorkombucha</a>
                     </p>
                     <p><a class="modalFont mt-5" href="https://www.facebook.com/amorkombucha/"><i
-                                class="fab fa-facebook-square fa-2x awesomeModal mr-4"></i>www.facebook.com/amorkombucha/</a>
+                                class="fab fa-facebook-square fa-2x awesomeModal mr-4"></i>facebook.com/amorkombucha/</a>
                     </p>
                     <p class="modalFont"><i class="fas fa-envelope fa-2x awesomeModal mr-4"></i>info@amorkombucha.com
                     </p>
@@ -107,41 +109,51 @@
 
     <div class="container-fluid">
         <div class="row center">
-            <div class="col-10">
-                <h2 class="productsTitle mt-5 py-3">Los Sabores</h2>
+            <div class="col-m-12 col-xl-10">
+                <h2 class="productsTitle mt-3 py-3">Los Sabores</h2>
                 <div class="row mt-5">
-                    <div class="col-4">
+
+                    <div class="order-1 col-2 d-xl-none"></div>
+
+                    <div class="order-2 col-12 col-sm-8 col-xl-4 center">
                         <img src="../images/4amor.jpg" class="fourAmor">
                     </div>
-                    <div class="col-8 mb-5">
-                        <p class="pr-3 pl-3 pb-3 productsDescription">
 
+                    <div class="order-3 col-2 d-xl-none "></div>
+
+                    <div class="order-4 col-m-12 col-xl-8 ">
+                        <p class="order-5 pr-3 pl-3 pb-3 productsDescription">
                             <strong>MEXICAN-American KOMBUCHA</strong>
                             <br>
                             Our Kombucha is organic and handmade with love - it is not pasteurized, nor does it contain
-                            preservatives. We use local flavors inspired by Mexico. It is made in small batches using traditional techniques.
+                            preservatives. We use local flavors inspired by Mexico. It is made in small batches using
+                            traditional techniques.
                             If made the real way, it can take up to 4 weeks to make a bottle. That’s how Amor makes it
                             every day.
                             <br><br>
                             <strong>A Sip For Justice</strong>
                             <br>
-                            The modern system of agriculture often exploits farmers, the environment and our health. We work to
+                            The modern system of agriculture often exploits farmers, the environment and our health. We
+                            work to
                             obtain our ingredients from organic local farms that employ ethical business practices.
                             <br><br>
                             <strong>From Farm to Bottle</strong>
                             <br>
-                            We obtain the highest quality organic ingredients from San Joaquin County. Greatness grows here and
-                            with Amor we want to showcase what the heart of the central valley offers. We love taking advantage of
-                            our rich agriculture and diverse ingredients to make the highest quality brew. Local organic agriculture is
+                            We obtain the highest quality organic ingredients from San Joaquin County. Greatness grows
+                            here and
+                            with Amor we want to showcase what the heart of the central valley offers. We love taking
+                            advantage of
+                            our rich agriculture and diverse ingredients to make the highest quality brew. Local organic
+                            agriculture is
                             the best way to support our environment and local communities.
                             <br>
                             * Black tea is the only ingredient that we can not obtain locally.
-                            
+
                     </div>
-                   
+
                 </div>
                 <div class="row">
-                    <div class="col-3 stretch">
+                    <div class="order-6 col-md-6 col-xl-3 stretch mt-4">
                         <div class="card1">
                             <img src="../images/AKIF-8.jpg" class="card-img-top"
                                 alt="Image of the Piñata flavored kombucha.">
@@ -158,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 stretch">
+                    <div class="order-7 col-md-6 col-xl-3 stretch mt-4">
                         <div class="card2">
                             <img src="../images/AKIF-6.jpg" class="card-img-top"
                                 alt="Image of the Salud flavored kombucha.">
@@ -177,11 +189,13 @@
                                     give you a familiar taste of the Latin made
                                     tamarind drinks so refreshing and
                                     packed with flavor.</p>
-
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 stretch">
+                    <!--Column seperates at large -->
+
+
+                    <div class="order-9 col-md-6 col-xl-3 stretch mt-4">
                         <div class="card3">
                             <img src="../images/AKIF-4.jpg" class="card-img-top"
                                 alt="Image of the Eterno flavored kombucha.">
@@ -189,7 +203,8 @@
                                 <h5 class="card-title mt-2">Eterno</h5>
                             </div>
                             <div class="card-body-4 mt-3">
-                                <p class="card-text center pl-3"><strong>Organic, Fair Trade Jasmine Green tea.</strong></p>
+                                <p class="card-text center pl-3"><strong>Organic, Fair Trade Jasmine Green tea.</strong>
+                                </p>
 
                                 <p class="cardbodyText pl-3 pr-3">Eterno is refreshing,
                                     crisp and abundant in floral aroma that
@@ -198,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 stretch">
+                    <div class=" order-10 col-md-6 col-xl-3 stretch mt-4">
                         <div class="card4">
                             <img src="../images/AKIF-2.jpg" class="card-img-top"
                                 alt="Image of the Como La Flor flavored kombucha.">
@@ -217,12 +232,16 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 mt-5">
+                    <div class="order-1 col-12 mt-5">
                         <h2 class="htoTitle py-3">How To Order</h2>
                     </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-4">
+
+                    <div class="order-2 col-3 d-xl-none"></div>
+
+
+                    <div class="order-3 col-lg-6 col-xl-4">
                         <div class="accordion" id="accordionExample">
                             <div class="card accordianBorder">
                                 <div class="card-header accordianBG" id="headingOne">
@@ -244,17 +263,16 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            
                                             <p class="noPadding">
-                                                <div class="col-4">
-                                                    <ul><strong>6 Pack</strong>: $25.00 </ul>
-                                                </div>
-                                                <div class="col-4">
-                                                    <ul><strong>12 Pack</strong>: $48.00</ul>
-                                                </div>
-                                                <div class="col-4">
-                                                    <ul><strong>24 Pack</strong>: $90.00</ul>
-                                                </div>
+                                            <div class="col-4 noPadding">
+                                                <ul><strong>6 Pack</strong>: $25.00 </ul>
+                                            </div>
+                                            <div class="col-4 noPadding">
+                                                <ul><strong>12 Pack</strong>: $48.00</ul>
+                                            </div>
+                                            <div class="col-4 noPadding">
+                                                <ul><strong>24 Pack</strong>: $90.00</ul>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -274,12 +292,33 @@
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                                     <div class="card-body accordianTextBG">
                                         <p><strong>Choose Your Flavors! (Mix and Match)</strong></p>
-                                        <p><strong>Piñata</strong>: Jasmine Green Tea, Pineapple, Ginger &
-                                            Turmeric.</p>
-                                        <p><strong>Salud</strong>: Pu-erh Black tea, Tamarind, & Chaga.</p>
-                                        <p><strong>Eterno</strong>: Jasmine Green Tea.</p>
-                                        <p class="noPadding"><strong>Como La Flor</strong>: Hibiscus, Lavender, Rose.
-                                        </p>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <p><img src=../images/pinataRaccafied.png class="bottle"></p>
+                                            </div>
+                                            <div class="col-10">
+                                                <p> <strong>Piñata</strong><br> Jasmine Green Tea, Pineapple, Ginger &
+                                                    Turmeric.</p>
+                                            </div>
+                                            <div class="col-2">
+                                                <p><img src=../images/saludRaccafied.png class="bottle"></p>
+                                            </div>
+                                            <div class="col-10">
+                                                <p> <strong>Salud</strong><br> Pu-erh Black tea, Tamarind, & Chaga.</p>
+                                            </div>
+                                            <div class="col-2">
+                                                <p><img src=../images/eternoRaccafied.png class="bottle"></p>
+                                            </div>
+                                            <div class="col-10">
+                                                <p> <strong>Eterno</strong><br> Jasmine Green Tea.</p>
+                                            </div>
+                                            <div class="col-2">
+                                                <p><img src=../images/comoLaFlorRaccafied.png class="bottle"></p>
+                                            </div>
+                                            <div class="col-10">
+                                                <p> <strong>Como La Flor</strong><br> Hibiscus, Lavender, Rose.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -298,18 +337,29 @@
                                     <div class="card-body accordianTextBG">
                                         <p class="noPadding"><strong>Contact Us!</strong></p>
                                         <p>Direct Message via Instagram or Facebook!</p>
-                                        <p><strong>Email</strong>: info@AmorKombucha.com</p>
-                                        <p><strong>Call or Text</strong>: 209-227-4985</p>
+                                        <p><i
+                                                class="fas fa-envelope fa-2x awesomeModal mr-2"></i><strong>Email</strong>:
+                                            info@AmorKombucha.com</p>
+                                        <p><i class="fas fa-phone fa-2x awesomeModal mr-2"></i><strong>Call or
+                                                Text</strong>: 209-227-4985</p>
                                         <p>Payments will be accepted electronically only to reduce contact for the
                                             safety of both parties.</p>
                                         <p class="noPadding"><strong>Order is confirmed once payment is
-                                            received.</strong></p>
+                                                received.</strong></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-8">
+
+
+                    <div class="order-4 col-3 d-xl-none"></div>
+
+                    <div class="order-5 col-12 mt-5 d-xl-none"></div>
+
+                    <div class="order-6 col-2 d-xl-none"></div>
+
+                    <div class="order-7 col-lg-8">
                         <div id="Indicator" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#Indicator" data-slide-to="0" class="active"></li>
@@ -324,45 +374,55 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="../images/AKE-1.jpg" class="d-block w-100" alt="'Image saying 'Whatever you do in this world do it with amor.'">
+                                    <img src="../images/AKE-1.jpg" class="d-block w-100"
+                                        alt="'Image saying 'Whatever you do in this world do it with amor.'">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-2.jpg" class="d-block w-100" alt="Image dsiplaying price of Kombucha bottles.">
+                                    <img src="../images/AKE-2.jpg" class="d-block w-100"
+                                        alt="Image dsiplaying price of Kombucha bottles.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-3.jpg" class="d-block w-100" alt="Image of Martin pouring Kombucha into a bottle.">
+                                    <img src="../images/AKE-3.jpg" class="d-block w-100"
+                                        alt="Image of Martin pouring Kombucha into a bottle.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-7.jpg" class="d-block w-100" alt="Image of Martin and a customer interacting.">
+                                    <img src="../images/AKE-7.jpg" class="d-block w-100"
+                                        alt="Image of Martin and a customer interacting.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-10.jpg" class="d-block w-100" alt="Image of Martin and another customer interacting.">
+                                    <img src="../images/AKE-10.jpg" class="d-block w-100"
+                                        alt="Image of Martin and another customer interacting.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-12.jpg" class="d-block w-100" alt="Image of Martin and a little boy interacting.">
+                                    <img src="../images/AKE-12.jpg" class="d-block w-100"
+                                        alt="Image of Martin and a little boy interacting.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-13.jpg" class="d-block w-100" alt="Another image of Martin and a little boy interacting.">
+                                    <img src="../images/AKE-13.jpg" class="d-block w-100"
+                                        alt="Another image of Martin and a little boy interacting.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-14.jpg" class="d-block w-100" alt="Close up image of kombucha being poured into a bottle.">
+                                    <img src="../images/AKE-14.jpg" class="d-block w-100"
+                                        alt="Close up image of kombucha being poured into a bottle.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../images/AKE-15.jpg" class="d-block w-100" alt="Image of Martin interacting with a customer.">
+                                    <img src="../images/AKE-15.jpg" class="d-block w-100"
+                                        alt="Image of Martin interacting with a customer.">
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#Indicator" role="button"
-                                data-slide="prev">
+                            <a class="carousel-control-prev" href="#Indicator" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#Indicator" role="button"
-                                data-slide="next">
+                            <a class="carousel-control-next" href="#Indicator" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
                     </div>
+
+                    <div class="order-8 col-2 d-xl-none"></div>
+
                 </div>
             </div>
         </div>
@@ -390,6 +450,30 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid footerColor mt-5 d-none">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 ">
+            </div>
+            <div class="col-12"></div>
+            <div class="col-12 d-flex justify-content-center">
+
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="mt-3">Amor Kombucha</p>
+                    <p>209-227-4985</p>
+                    <p class="mb-4">info@AmorKombucha.com</p>
+                    <a class="fab fa-instagram fa-3x down mr-4 awesomeIcon"
+                        href="https://www.instagram.com/amorkombucha/"></a>
+                    <a class="fab fa-facebook-square fa-3x down mr-1 awesomeIcon"
+                        href="https://www.facebook.com/amorkombucha/"></a>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="mb-3">Hecho en Stockton, CA</p>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 
