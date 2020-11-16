@@ -3,14 +3,14 @@ let collapseTwo = document.getElementById("collapseTwo");
 let collapseThree = document.getElementById("collapseThree");
 
 
-let step1Btn = document.getElementById("btnTest");
-let step2Btn = document.getElementById("btnTest1");
-let step3Btn = document.getElementById("btnTest2");
+let step1Btn = document.getElementById("step1Btn");
+let step2Btn = document.getElementById("step2Btn");
+let step3Btn = document.getElementById("step3Btn");
 
 
-let step1 = false;
-let step2 = false;
-let step3 = false;
+let step1 = true;
+let step2 = true;
+let step3 = true;
 
 step1Btn.addEventListener("click", function () {
     if (!step1) {
