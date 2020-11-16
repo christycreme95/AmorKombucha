@@ -4,83 +4,91 @@ body {
 }
 
 /* Nav Stuff */
-.AmorLogo{
+
+.AmorLogo {
     width: 120px;
 }
-.navColor{
+
+.navColor {
     background-color: #15100C;
     color: white;
-    font-size: 25px;   
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
 }
-.justEnd{
+
+.justEnd {
     display: flex;
     justify-content: flex-end;
 }
-.down{
+
+.down {
     display: flex;
     align-items: flex-end;
 }
-.dropColor{
-    background-color:#15100C;
-    
+
+.dropColor {
+    background-color: #15100C;
 }
-.dropInside{
+
+.dropInside {
     background-color: #15100C;
     color: white;
     font-size: 20px;
-    
 }
-.dropInside:hover{
-    background-color:#FFD2CF;
+
+.dropInside:hover {
+    background-color: #FFD2CF;
     color: black;
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #FFD2CF;
 }
 
-
 /* Home Page */
 
-.heroImg{
+.heroImg {
     background-image: url(../images/akBanner.png);
     height: 600px;
-    
     background-position-y: top;
-    background-position-x:center;
+    background-position-x: center;
     background-size: contain;
-    background-repeat: repeat-x; 
+    background-repeat: repeat-x;
 }
 
-.bottleHov{
+.bottleHov {
     margin-top: 12px;
     height: 640px;
     transition-duration: .4s;
     padding: 30px;
     padding-top: 110px;
 }
-.bottleHov:hover{
+
+.bottleHov:hover {
     height: 820px;
     transition-duration: .2s;
 }
-.marTop{
+
+.marTop {
     margin-top: 200px;
 }
-.picPad{
+
+.picPad {
     padding: 0px;
 }
 
 /* Part 1 */
-.meetUs{
-    
+
+.meetUs {
     background-color: #FFD2CF;
     text-align: center;
     color: black;
@@ -89,7 +97,8 @@ body {
     display: flex;
     justify-content: center;
 }
-.homePgH1{
+
+.homePgH1 {
     font-size: 60px;
     display: flex;
     align-content: center;
@@ -97,66 +106,65 @@ body {
     color: black;
 }
 
-.homebox1{
+.homebox1 {
     background-color: #FFD2CF;
     opacity: 80%;
     border-radius: 25px;
-
-    
 }
-.HomepTag{
+
+.HomepTag {
     font-size: 25px;
     padding-top: .9vw;
     padding-left: .5vw;
     padding-right: .5vw;
     color: black;
     margin-bottom: 3px;
-    
 }
-.pMini{
+
+.pMini {
     font-size: 20px;
     color: black;
     padding-top: 0 !important;
     margin-bottom: 2px;
 }
-.homePic{
+
+.homePic {
     border-radius: 30px;
     max-width: 100%;
     height: auto;
     width: auto;
 }
 
-
-
 /* Part 2 */
-.farmToBottle{
-   
-    background-color:#D3D3B1;
+
+.farmToBottle {
+    background-color: #D3D3B1;
     text-align: center;
     color: black;
     opacity: 80%;
     border-radius: 20px;
 }
-.homebox2{
+
+.homebox2 {
     background-color: #D3D3B1;
     opacity: 80%;
     border-radius: 30px;
 }
 
-
 /* Part 3 */
-.WhatIsAmor{
-    
-    background-color:#AAC5CB;
+
+.WhatIsAmor {
+    background-color: #AAC5CB;
     text-align: center;
     opacity: 80%;
     color: black;
     border-radius: 20px;
 }
-.homebox3{
+
+.homebox3 {
     opacity: 80%;
     border-radius: 30px;
-    background-color:#AAC5CB;
+    background-color: #AAC5CB;
 }
 
 .productsTitle {
@@ -404,73 +412,74 @@ body {
 }
 
 /* Smol Media Query */
+
 @media only screen and (min-width: 320px) {
-    .AmorLogo{
+    .AmorLogo {
         width: 120px;
         margin-left: 20px;
     }
-    .bottleHov{
+    .bottleHov {
         height: 400px;
     }
-    .bottleHov:hover{
+    .bottleHov:hover {
         height: 600px;
     }
-    .meetUs{
+    .meetUs {
         margin-top: 0px;
     }
-    .HomepTag{
+    .HomepTag {
         font-size: 18px;
-        
     }
-    .homePgH1{
+    .homePgH1 {
         font-size: 40px;
     }
-    .marTop{
+    .marTop {
         margin-top: 50px;
     }
     .modalFont {
         font-size: 15px;
     }
-    .picPad{
+    .picPad {
         padding: 0!;
     }
 }
+
 /* Medium Media Query */
-    @media only screen and (min-width: 600px) {
-    .AmorLogo{
+
+@media only screen and (min-width: 600px) {
+    .AmorLogo {
         width: 150px;
     }
-    .bottleHov{
+    .bottleHov {
         height: 640px;
     }
-    .bottleHov:hover{
+    .bottleHov:hover {
         height: 800px;
     }
-    .meetUs{
+    .meetUs {
         margin-top: 200px;
     }
-    .HomepTag{
+    .HomepTag {
         font-size: 25px;
     }
-    .homePgH1{
+    .homePgH1 {
         font-size: 60px;
     }
-    .marTop{
+    .marTop {
         margin-top: 200px;
     }
-    
+}
 
+@media only screen and (min-width: 1200px) {
+    .HomepTag {
+        font-size: 1.5vw;
     }
-    @media only screen and (min-width: 1200px){
-        .HomepTag{
-            font-size: 1.5vw;
-        }
-        .picPad{
-            padding-left: 5px;
-            padding-right: 5px;
-        }
+    .picPad {
+        padding-left: 5px;
+        padding-right: 5px;
     }
-   
+}
+
 @media only screen and (min-width: 320px) {
     .modalFont {
         font-size: 15px;
@@ -613,12 +622,30 @@ body {
         font-size: 16px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    .fourAmor {
+        border-radius: 40px;
+        height: 85%;
+        width: 101%;
+    }
+    .productsDescription {
+        font-size: 14px;
+        background-color: #EBC7C3;
+        opacity: 0.9;
+        border-radius: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2%;
+    }
 }
 
 @media only screen and (min-width: 1250px) {
     .bottle {
         height: 150%;
         width: 150%;
+    }
+    .fourAmor {
+        border-radius: 40px;
+        height: 95%;
+        width: 101%;
     }
 }
 
@@ -634,7 +661,7 @@ body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .productsDescription {
-        font-size: 20px;
+        font-size: 16px;
         background-color: #EBC7C3;
         opacity: 0.9;
         border-radius: 40px;
@@ -650,12 +677,42 @@ body {
         border-radius: 25px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    .fourAmor {
+        border-radius: 40px;
+        height: 90%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    .productsDescription {
+        font-size: 18px;
+        background-color: #EBC7C3;
+        opacity: 0.9;
+        border-radius: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2%;
+    }
+    .fourAmor {
+        border-radius: 40px;
+        height: 96%;
+        width: 100%;
+    }
+}
+
+.productsDescription {
+    font-size: 21px;
+    background-color: #EBC7C3;
+    opacity: 0.9;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 2%;
 }
 
 @media only screen and (min-width: 1960px) {
     .fourAmor {
         border-radius: 40px;
-        height: 97%;
+        height: 90%;
         width: 101%;
     }
     .productsTitle {
@@ -669,7 +726,7 @@ body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .productsDescription {
-        font-size: 30px;
+        font-size: 21px;
         background-color: #EBC7C3;
         opacity: 0.9;
         border-radius: 40px;
@@ -717,5 +774,32 @@ body {
     .bottle {
         height: 125%;
         width: 125%;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .productsDescription {
+        font-size: 24px;
+        background-color: #EBC7C3;
+        opacity: 0.9;
+        border-radius: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+    .fourAmor {
+        border-radius: 40px;
+        height: 93%;
+        width: 101%;
+    }
+    .productsDescription {
+        font-size: 27px;
+        background-color: #EBC7C3;
+        opacity: 0.9;
+        border-radius: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2%;
     }
 }
