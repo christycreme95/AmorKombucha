@@ -2,13 +2,7 @@ body{
     background-image: url(../images/darkBrn.jpg);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-@font-face{
-    font-family: norwester;
-    src: url(../fonts/norwester.otf);
-}
-.norwester{
-    font-family: norwester;
-}
+
 .stretch{
     display: flex;
     align-content: stretch;
@@ -133,7 +127,7 @@ body{
     margin-bottom: 2px;
 }
 .homePic{
-    border-radius: 30px;
+    border-radius: 25px;
     max-width: 100%;
     height: auto;
     width: auto;
@@ -153,7 +147,7 @@ body{
 .homebox2{
     background-color: #D3D3B1;
     opacity: 80%;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 
