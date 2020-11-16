@@ -9,7 +9,10 @@ body{
 .norwester{
     font-family: norwester;
 }
-
+.stretch{
+    display: flex;
+    align-content: stretch;
+}
 
 
 /* Nav Stuff */
